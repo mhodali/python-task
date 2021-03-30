@@ -1,0 +1,28 @@
+  "goldimage_ver": "CVM_PE_GI-7.7r1.7.1-20200319",
+  "goldimage_ver_dep": [
+    "CVM_PE_GI-7.7r1.7.1-0000000",
+    "7.7r1.6.2",
+    "7.6r2"
+  ],
+  "goldimage_type": "PE_goldimage_type",
+  "arch": "x86_64",
+  "CESA_list": [
+    {
+      "CESA": "CESA-2020:0196"
+    }
+  ],
+  "RPM_list": [
+    {
+      "name": "python-pillow"
+    }
+  ],
+  "type": "User_RPM_type",
+  "ver": "2.0.0-20.gitd1c6db8.el7_7",
+  "rpm_pkg": "python-pillow-2.0.0-20.gitd1c6db8.el7_7.x86_64.rpm",
+  "install_cmd": "sudo yum localinstall -y --installroot=$ROOT $RPM_NAME --nogpgcheck",
+  "reboot": "No",
+  "CVEs": [
+    "CVE-2019-16865",
+    "CVE-2020-5312"
+  ]
+}
